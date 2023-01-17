@@ -1,0 +1,87 @@
+.container{
+    box-shadow: 10px 10px 10px;
+    border-radius: 20px;
+    z-index: 1;
+    position: absolute;
+    padding: 30px;
+    height: 250px;
+    width: 177px;
+    background-color: #101010;
+}
+input{
+    transition: 1s;
+    color: darkgray;
+    height: 30px;
+    margin-bottom: 10px;
+    border-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(210, 20, 20);
+    background-color: rgba(0, 0, 0, 0);
+}
+input:focus{
+    outline: 0;
+}
+input:valid{
+    border-bottom-color: rgb(0, 130, 0);
+}
+input::placeholder{
+    opacity: 0.5;
+    color: darkgray;
+}
+.accounts{
+    box-shadow:  5px 5px 5px;
+    border-radius: 10px;
+    transition: 0.6s;
+    text-align: end;
+    padding: 5px;
+    position: relative;
+    height: 150px;
+    width: 160px;
+    background-color: #262626;
+    top: 60px;
+    left: 115px;
+}
+#close{
+    color: #303030;
+    width: 30px;
+    margin: 0px;
+    border-width: 1px;
+    background-color: rgba(210, 20, 20);
+    border-radius: 4px;
+    height: 30px;
+}
+button{
+    transition: 0.3s;
+    color: rgba(210, 20, 20);
+    border-color: rgba(210, 20, 20);
+    background-color: rgba(0, 0, 0, 0);
+    height: 30px;
+    margin-top: 10px;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 10px;
+    margin-right: 40px;
+}
+button:hover{
+    color: #303030;
+    background-color: rgba(210, 20, 20);
+}
+span{
+    color: darkgrey;
+    font-size: 25px;
+}
+input[type=submit]{
+    transition: 0.3s;
+    color: rgba(210, 20, 20);
+    border-color: rgba(210, 20, 20);
+    background-color: rgba(0, 0, 0, 0);
+    height: 30px;
+    margin-top: 10px;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-left: 95px;
+}
+input[type=submit]:hover{
+    color: #303030;
+    background-color: rgba(210, 20, 20);
+}
